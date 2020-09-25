@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    transition: 2s ease;
+}
+
+.lore-body{
+    background-image: url("../assets/background/background-before.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+}
+
+.body-text{
+    margin-top: 30px;
+}
+
+.lore-icons{
+    text-align: center;
+}
+
+.lore-icons img {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.lore-icons img:hover {
+    opacity: 1;
+}
+
+.lore-text{
+    font-family: 'Maven Pro', sans-serif;
+    text-shadow: black;
+    color: white;
+    text-align: justify;
+    margin: 0 20px 0 20px;
+    -webkit-text-stroke: 0.2px black;
+    font-size: 30px;
+}
+
+.heading-text{
+    font-family: 'Basic', sans-serif;
+    color: #FF0000;
+    opacity: 75%;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .lore-text{
+      font-size: 1rem;
+      position: absolute;
+      margin: 0 1rem 0 1rem;
+      width: fit-content;
+    }
+
+    .lore-body{
+        height: 100rem;
+    }
+}

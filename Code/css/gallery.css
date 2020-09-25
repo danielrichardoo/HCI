@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner1{
+    background-image: url("../assets/gallery/gallery-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 500px ;
+}
+
+.text{
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: 'Maven Pro', sans-serif;
+    text-shadow: black;
+    color: white;
+    -webkit-text-stroke: 0.3px black;
+    
+}
+
+.photosline1{
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 250px;
+    font-size: 30px;
+}
+
+.line1{
+    margin-top: 20px;
+}
+
+.line2{
+    margin-top: 20px;
+}
+
+.line3{
+    margin-top: 20px;
+}
+
+.photosline2{
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin-top: -420px;
+    margin-left: 760px;
+    font-size: 30px;
+}
+
+.photosline3{
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin-top: -420px;
+    margin-left: 1260px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .photosline1{
+        justify-content: center;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        margin-top: 40px;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .photosline2{
+        justify-content: center;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        margin-top: -170px;
+        margin-left: 250px;
+        font-size: 30px;
+    }
+
+    .photosline3{
+        justify-content: center;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        margin-top: -170px;
+        margin-left: 450px;
+        font-size: 30px;
+    }
+}

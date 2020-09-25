@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+
+}
+
+
+body{
+    background-image: url("../assets/background/background-celine.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.character-icons-menu{
+    padding-top: 1%;
+    text-align: center;
+}
+
+.character-icons img{
+    opacity: 1;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+#satu{
+    opacity: 1;
+}
+
+#dua, #tiga, #empat, #lima{
+    opacity:0.5;
+}
+
+.character-isi{
+    background-image: url("../assets/desain/Background_Celine.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.character-text{
+    font-family: 'Maven Pro', sans-serif;
+    text-shadow: black;
+    color: white;
+    font-size: 2rem;
+    margin-top: 2%;
+    padding-top: 15%;
+    padding-left: 30%;
+    padding-bottom: 4% ;
+}
+
+.heading-text{
+    font-family: 'Basic', sans-serif;
+    color: #774691;
+}
+
+@media screen and (max-width: 800px) {
+    .character-icons>img{
+        width: 13%;
+        height: 13%;
+        padding-right: 20px;
+    }
+
+    .character-isi{
+        background-size: contain;
+        margin-left: 5%;
+        margin-right: 5%;    
+    }
+    
+    .character-text{
+        font-family: 'Maven Pro', sans-serif;
+        text-shadow: black;
+        color: white;
+        font-size: 0.8rem;
+    }
+}
